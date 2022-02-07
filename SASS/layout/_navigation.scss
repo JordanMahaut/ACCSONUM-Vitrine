@@ -1,14 +1,28 @@
-nav {
+header {
+  nav {
     height: 100px;
     display: flex;
     flex-direction: row;
     border: solid 1px black;
     line-height: 20px;
-    
-  img {
-    margin-top: 10px;
-    height: 75px;
-    width: 250px;
+    width: 100%;
+
+    img {
+      margin-right: 500px;
+      margin-top: 10px;
+      height: 75px;
+      width: 250px;
+    }
   }
-  
 }
+.titre {
+    margin-top: 10px;
+    line-height: 5px;
+    h1{
+        font-size: 40px;
+        margin-left: 35px;
+    }
+    h2{
+        font-size: 20px;
+    }
+  }
