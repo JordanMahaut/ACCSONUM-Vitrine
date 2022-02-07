@@ -2,8 +2,13 @@ nav {
     height: 100px;
     display: flex;
     flex-direction: row;
+    border: solid 1px black;
+    line-height: 20px;
+    
   img {
-    height: 150px;
-    width: 100%;
+    margin-top: 10px;
+    height: 75px;
+    width: 250px;
   }
+  
 }
