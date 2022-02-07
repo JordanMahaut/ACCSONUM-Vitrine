@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    border: solid 1px black;
+}
+
+h1{
+    font-size: 15px;
+}
+
+p{
+    text-align: justify;
+}
